@@ -1,0 +1,13 @@
+.glow {
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 0 0 40px white;
+  clip-path: circle(0% at 50% 50%);
+  background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+}
+
+.glow-wrapper {
+  filter: drop-shadow(0 0 6px #ffffffa8) drop-shadow(0 0 3px #ffffff)
+    drop-shadow(0 0 2px white);
+  margin-bottom: 30px;
+}
