@@ -14,7 +14,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 132 68 C 113.9688 49.9688 86.3916 49.9688 68.3604 68 C 50.4292 86.0312 50.4292 113.6084 68.3604 131.6396 C 86.3916 149.6708 115.0294 148.6102 132 131.6396 C 148.9706 114.669 150.0312 86.0312 132 68")', //big
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)-out",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -30,7 +30,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 111.4 88.6 C 104.9088 82.1088 94.981 82.1088 88.4897 88.6 C 81.9985 95.0912 81.9985 105.019 88.4897 111.5103 C 94.9809 118.0015 105.2906 117.6197 111.4 111.5103 C 117.5094 105.4008 117.8912 95.0913 111.4 88.6")', //small circle
     duration: 0.2,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -38,7 +38,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 148 50 C 125.5 5 73.75 5 52 50 C 7.9594 72.5 7.9594 124.25 52 146 C 75.4594 190.0406 124.9594 190.0406 148 146 C 193 124.7906 193 73.0406 148 50")', //path-2
     duration: 0.4,
-    ease: "cubic-bezier(0, 1, 0, 1)",
+    ease: "cubic-bezier(1, 0, 1, 0)",
   },
   {
     backgroundImage:
@@ -54,7 +54,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 111.4 88.6 C 104.9088 82.1088 94.981 82.1088 88.4897 88.6 C 81.9985 95.0912 81.9985 105.019 88.4897 111.5103 C 94.9809 118.0015 105.2906 117.6197 111.4 111.5103 C 117.5094 105.4008 117.8912 95.0913 111.4 88.6")', //small circle
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -63,7 +63,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 110 70 C 105 75 95 75 90 70 C 10 30 10 170 90 130 C 95 125 105 125 110 130 C 190 170 190 30 110 70")',
     duration: 0.4,
-    ease: "cubic-bezier(0, 1, 0, 1)",
+    ease: "cubic-bezier(1, 0, 1, 0)",
   },
   {
     backgroundImage:
@@ -71,7 +71,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 111.4 88.6 C 104.9088 82.1088 94.981 82.1088 88.4897 88.6 C 81.9985 95.0912 81.9985 105.019 88.4897 111.5103 C 94.9809 118.0015 105.2906 117.6197 111.4 111.5103 C 117.5094 105.4008 117.8912 95.0913 111.4 88.6")', //small circle
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -80,7 +80,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 130 90 C 170 10 30 10 70 90 C 75 95 75 105 70 110 C 30 190 170 190 130 110 C 125 105 125 95 130 90")',
     duration: 0.4,
-    ease: "cubic-bezier(0, 1, 0, 1)",
+    ease: "cubic-bezier(1, 0, 1, 0)",
   },
   {
     backgroundImage:
@@ -88,7 +88,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 111.4 88.6 C 104.9088 82.1088 94.981 82.1088 88.4897 88.6 C 81.9985 95.0912 81.9985 105.019 88.4897 111.5103 C 94.9809 118.0015 105.2906 117.6197 111.4 111.5103 C 117.5094 105.4008 117.8912 95.0913 111.4 88.6")', //small circle
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -97,7 +97,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 110 70 C 105 75 95 75 90 70 C 10 30 10 170 90 130 C 95 125 105 125 110 130 C 190 170 190 30 110 70")',
     duration: 0.4,
-    ease: "cubic-bezier(0, 1, 0, 1)",
+    ease: "cubic-bezier(1, 0, 1, 0)",
   },
   {
     backgroundImage:
@@ -105,7 +105,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 111.4 88.6 C 104.9088 82.1088 94.981 82.1088 88.4897 88.6 C 81.9985 95.0912 81.9985 105.019 88.4897 111.5103 C 94.9809 118.0015 105.2906 117.6197 111.4 111.5103 C 117.5094 105.4008 117.8912 95.0913 111.4 88.6")', //small circle
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
@@ -114,7 +114,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 130 90 C 170 10 30 10 70 90 C 75 95 75 105 70 110 C 30 190 170 190 130 110 C 125 105 125 95 130 90")',
     duration: 0.4,
-    ease: "cubic-bezier(0, 1, 0, 1)",
+    ease: "cubic-bezier(1, 0, 1, 0)",
   },
   {
     backgroundImage:
@@ -122,7 +122,7 @@ export const ANIMATIONS = [
     clipPath:
       'path("M 103.15 96.85 C 101.3469 95.0469 98.5892 95.0469 96.786 96.85 C 94.9829 98.6531 94.9829 101.4108 96.786 103.214 C 98.5892 105.0171 101.4529 104.911 103.15 103.214 C 104.8471 101.5169 104.9531 98.6531 103.15 96.85")', //small circle
     duration: 0.4,
-    ease: "cubic-bezier(1, 0, 1, 0)",
+    ease: "cubic-bezier(0, 1, 0, 1)",
   },
   {
     backgroundImage:
